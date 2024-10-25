@@ -1,7 +1,10 @@
 # pgnc-private-api
 
-This is code for the Website to access the DB. Only to be used by the website, not as an external REST API
+This is code for the Website to access the DB. The project will utilise
+NestJS, a NodeJS framework, to create a REST API which uses similar
+frameworks as Angular.
 
 ## Tutorials used
 
-- https://deadsimplechat.com/blog/rest-api-with-postgresql-and-node-js/
+- [NestJS](https://docs.nestjs.com/)
+- https://stytch.com/docs/api/password-&lt;slug&gt;

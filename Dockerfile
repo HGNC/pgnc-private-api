@@ -7,10 +7,11 @@ WORKDIR /usr/src/app
 
 
 RUN npm install nodemon -g
+RUN npm install typeorm -g
 
 
 # our app is running on port 5000 within the container, so need to expose it
 EXPOSE 5000
 
 # the command that starts our app
-ENTRYPOINT ["nodemon", "index.js"]
+ENTRYPOINT ["/usr/src/app/start.sh"]
